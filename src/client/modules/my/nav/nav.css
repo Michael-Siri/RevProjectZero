@@ -1,0 +1,110 @@
+/* NavBar */
+
+._n1{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important; 
+
+    flex: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 36px;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+._n2{
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #fe7bb0;
+    background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+    
+
+    /* background-color: rgb(238, 165, 177); */
+    padding: 0 30px;
+    min-height: 36px;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+._n2-1{
+    margin-left:2rem;
+    margin-top:-.4rem;
+    font-size: 15px;
+    color:white;
+}
+
+._n3{
+    margin-top: -5px;
+    flex: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+._n4{
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: white;
+    padding: 0 30px;
+    min-height: 64px;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+._fancyTitle{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 40px;
+}
+
+
+
+
+/* Menu Buttons */
+
+._padding-l-r-4{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+
+._n4-1{
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    min-height: 48px;
+}
+
+._n4-2{
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    min-height: 64px;
+}
+
+._menuButton:focus{
+    color:red;
+    background-color:rgb(255, 239, 241);
+    margin-bottom:-2px;
+    border-bottom:2px solid pink;
+    text-decoration: none;
+}
+
