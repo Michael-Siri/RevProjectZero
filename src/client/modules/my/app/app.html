@@ -10,11 +10,11 @@
     </template>
 
     <template if:true={page.loginPage}>
-        <my-login></my-login>
+        <my-login onmenuchange={handlemenu}></my-login>
     </template>
 
     <template if:true={page.signupPage}>
-        <my-signup></my-signup>
+        <my-signup onmenuchange={handlemenu}></my-signup>
     </template>
 
     <div style = "height: 0px"></div>

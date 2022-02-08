@@ -1,0 +1,90 @@
+.form-title{
+    padding: 1rem;
+}
+
+.form-title h2{
+    font-size:20px;
+    font-weight:bold;
+    padding-left: 0;
+
+}
+
+.form-1{
+    position:relative;
+    padding:.5rem;
+}
+
+.form-1 label{
+    display: inline-block;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.form-1 input{
+    margin-top: 5px;
+    display:block;
+    padding: 10px;
+    border-radius: 10px ;
+    width:100%;
+}
+
+.loginCard{
+    background-color: white;
+    margin:20px;
+    margin-left: -100px;
+    width: 475px;   
+    height: 550px;
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding:20px;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.loginImage{
+    margin:20px;
+    width: 500px;   
+    height: 550px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #9317371c;
+}
+
+.buttons{
+    display:flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin:1.2rem;
+    font-size:16px;
+}
+
+.signUpButton{
+
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: #fff;
+    pointer-events: auto;
+    cursor: pointer;
+    background: #000000;
+    border: none;
+    padding: .5rem 4rem;
+}
+
+.loginButton{
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 3rem;
+    overflow: hidden;
+    color: #fff;
+    pointer-events: auto;
+    cursor: pointer;
+    background: rgb(255, 102, 128);
+    border: none;
+    padding: 0rem 4rem;
+}
+
